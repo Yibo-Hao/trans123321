@@ -1,0 +1,44 @@
+Arguments: 
+  E:\nodejs\node.exe E:\xunlei\yarn\bin\yarn.js add commanderjs
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\dell\bin;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\dotnet;C:\Program Files\Git\cmd;E:\nodejs;E:\xunlei\yarn\bin;C:\ProgramData\chocolatey\bin;C:\Users\dell\AppData\Roaming\local\bin;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;E:\我的阿里巴巴\Microsoft VS Code\bin;C:\Users\dell\AppData\Roaming\npm;C:\Users\dell\AppData\Local\Yarn\bin;E:\WebStorm 2019.3.3\bin;D:\Dream\hugo;C:\ProgramData\chocolatey;C:\Users\dell\AppData\Roaming\cabal\bin;C:\tools\msys64;C:\ProgramData\chocolatey\lib\ghc\tools\ghc-8.10.1\bin;C:\Users\dell\Downloads\hugo_0.62.2_Windows-64bit\
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  10.18.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/commanderjs: Not found
+      at Request.params.callback [as _callback] (E:\xunlei\yarn\lib\cli.js:66084:18)
+      at Request.self.callback (E:\xunlei\yarn\lib\cli.js:140727:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (E:\xunlei\yarn\lib\cli.js:141699:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (E:\xunlei\yarn\lib\cli.js:141621:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1145:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "trans",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "start": "ts-node-dev src/main.ts"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

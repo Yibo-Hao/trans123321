@@ -1,0 +1,21 @@
+{
+  "name": "trans123321",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev src/cli.ts"
+  },
+  "files": [
+    "dist/**/*.js"
+  ],
+  "bin": {
+    "fy": "dist/cli.js"
+  },
+  "dependencies": {
+    "@types/md5": "^2.2.0",
+    "@types/node": "^14.0.26",
+    "commander": "^6.0.0",
+    "md5": "^2.2.1"
+  }
+}
